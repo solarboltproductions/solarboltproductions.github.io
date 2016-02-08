@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <!--Import custom.css-->
+    <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection" />
+    <!--Import animate.css-->
+    <link type="text/css" rel="stylesheet" href="css/animate.css" media="screen,projection" />
+    <!--Import fluidable.css-->
+    <link type="text/css" rel="stylesheet" href="css/fluidable.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+    <!--Import Materialize.js-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <!--Import WOW.js-->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#modal1').openModal();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+    <!--Page Delay-->
+    <script>
+        $(document).ready(function() {
+            $(".waves-effect").on("click", function(e) {
+                e.preventDefault();
+                var href = $(this).attr("href");
+                setTimeout(function() {
+                    window.location = href;
+                }, 175);
+            });
+        });
+    </script>
+    <!--End of Defaults-->
+    <header>
+        <nav>
+            <ul id="slide-out" class="side-nav fixed">
+                <div class="brand-logo-color">
+                    <div class="brand-logo"><img src="images/riot.png" draggable="false"></div>
+                </div>
+                <div class="nav-options">
+                    <li class="bold active active-1"><a href="http://solarboltproductions.neocities.org" class="waves-effect waves-teal">HOMEPAGE</a></li>
+                    <li class="break"></li>
+                    <li class="bold active active-2"><a href="#" class="waves-effect waves-orange">ABOUT US</a></li>
+                    <li class="break"></li>
+                    <li class="bold active active-3"><a href="members.html" class="waves-effect waves-yellow">MEMBERS</a></li>
+                    <li class="break"></li>
+                    <li class="bold active active-4"><a href="#" class="waves-effect waves-purple">CONTACT US</a></li>
+                </div>
+            </ul>
+            <a href="" data-activates="slide-out" class="button-collapse" class="waves-effect waves-teal"><i class="mdi-navigation-menu"></i></a>
+            <div class="nav-header">
+                <span class="nav-header-title">SOLARBOLT PRODUCTIONS</span>
+            </div>
+        </nav>
+        <!--End of Navigation-->
+        <div class="wow animated fadeInLeftBig" data-wow-delay="0.25s">
+            <div class="row">
+                <div class="slate" id="hoverable">
+                    <div class="col s12 m12 l6">
+                        <div class="slate-image-wrapper">
+                            <img class="slate-image" src="images/joel.png" />
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card-content">
+                            <h1 class="card-content-title-joel" id="hoverable-small">JOEL/ROOKIETWENTYONE</h1>
+                            <div class="divider"></div>
+                            <h2 class="card-content-title-small">MANAGER/PRODUCER/EDITOR/ACCOUNTANT</h2>
+                            <div class="divider small"></div>
+                            <p>I am a very simple card. To fulfill my purpose, I need YOUR information. Is there anything you'd like to say for yourself? Text or email me whenever you're ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wow animated fadeInLeftBig" data-wow-delay="0.25s">
+            <div class="row">
+                <div class="slate" id="hoverable">
+                    <div class="col s12 m12 l6">
+                        <div class="slate-image-wrapper">
+                            <img class="slate-image" src="images/john.png" />
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card-content">
+                            <h1 class="card-content-title" id="hoverable-small">JOHN/JJWEBHEAD</h1>
+                            <div class="divider"></div>
+                            <h2 class="card-content-title-small">PRODUCER/EDITOR/GRAPHIC ARTIST</h2>
+                            <div class="divider small"></div>
+                            <p>I am a very simple card. To fulfill my purpose, I need YOUR information. Is there anything you'd like to say for yourself? Text or email me whenever you're ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wow animated fadeInLeftBig" data-wow-delay="0.25s">
+            <div class="row">
+                <div class="slate" id="hoverable">
+                    <div class="col s12 m12 l6">
+                        <div class="slate-image-wrapper">
+                            <img class="slate-image" src="images/dylan.png" />
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card-content">
+                            <h1 class="card-content-title" id="hoverable-small">DYLAN/NINJAFURY</h1>
+                            <div class="divider"></div>
+                            <h2 class="card-content-title-small">GRAPHIC DESIGNER</h2>
+                            <div class="divider small"></div>
+                            <p>I am a very simple card. To fulfill my purpose, I need YOUR information. Is there anything you'd like to say for yourself? Text or email me whenever you're ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wow animated fadeInLeftBig" data-wow-delay="0.25s">
+            <div class="row">
+                <div class="slate" id="hoverable">
+                    <div class="col s12 m12 l6">
+                        <div class="slate-image-wrapper">
+                            <img class="slate-image" src="images/tyler.png" />
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card-content">
+                            <h1 class="card-content-title" id="hoverable-small">TYLER/TRIPLE</h1>
+                            <div class="divider"></div>
+                            <h2 class="card-content-title-small">WEB DEVELOPER/LEAGUE GRANDMASTER</h2>
+                            <div class="divider small"></div>
+                            <p>I am a very simple card. To fulfill my purpose, I need YOUR information. Is there anything you'd like to say for yourself? Text or email me whenever you're ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wow animated fadeInLeftBig" data-wow-delay="0.25s">
+            <div class="row">
+                <div class="slate" id="hoverable">
+                    <div class="col s12 m12 l6">
+                        <div class="slate-image-wrapper">
+                            <img class="slate-image" src="images/chris.png" />
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card-content">
+                            <h1 class="card-content-title" id="hoverable-small">CHRIS/SORACHRIS</h1>
+                            <div class="divider"></div>
+                            <h2 class="card-content-title-small">LEAGUE MASTER</h2>
+                            <div class="divider small"></div>
+                            <p>I am a very simple card. To fulfill my purpose, I need YOUR information. Is there anything you'd like to say for yourself? Text or email me whenever you're ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wow animated fadeInLeftBig" data-wow-delay="0.25s">
+            <div class="row">
+                <div class="slate" id="hoverable">
+                    <div class="col s12 m12 l6">
+                        <div class="slate-image-wrapper">
+                            <img class="slate-image" src="images/griffin.png" />
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card-content">
+                            <h1 class="card-content-title" id="hoverable-small">GRIFFIN/BIRDMAN</h1>
+                            <div class="divider"></div>
+                            <h2 class="card-content-title-small">LEAGUE MASTER</h2>
+                            <div class="divider small"></div>
+                            <p>I am a very simple card. To fulfill my purpose, I need YOUR information. Is there anything you'd like to say for yourself? Text or email me whenever you're ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4 style="text-align:center;">SOLARBOLT PRODUCTIONS</h4>
+                <p>Hello folks, so I've decided to graphically redesign and overhaul our current alpha build for our website! So in this new beta version, the new UI/UX is completely different and (hopefully) better. The back-end code for the website is much more stable and organized, especially because I built this from the ground up with the help of a neat little framework. In general, responsiveness and animations have become more fluid, efficient, and beautiful. The layout actually changes depending on your device (that took some work).The design of this website is based upon Googles own Material Design concepts. The website really comes alive whether you're scrolling, navigating, or hovering over content. In my opinion, it looks way more awesome than the previous one. (Feedback would be appreciated!) As I have put plenty of my time into this, I expect (hope) that y'all would put some more effort out there. I truly do hope that you like it. Thanks for reading, cheers! Changelog and links below.
+                    <br />Changelog:
+                    <br />V2.0 Beta: We made it 2.0 woo! Complete front/back-end overhaul. Layout responds to device screen size. More efficient and concise code. Smoother animations, color coordination, etc.
+                    <br />Future Implementations: Contact forms. More information about our team.
+                    <br /> Links: <a href="https://www.google.com/design/spec/material-design/introduction.html">Material Design</a>
+                    <br /><a href="http://materializecss.com">Materialize</a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class=" modal-action modal-close waves-effect waves-green btn-flat">WOO!</a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
