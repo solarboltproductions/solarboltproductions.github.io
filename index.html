@@ -22,11 +22,15 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
     <!--Import Materialize.js-->
     <script type="text/javascript" src="js/materialize.js"></script>
+    <!--Import SmoothScroll.js-->
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <!--Import ScrollReveal.js-->
+    <script type="text/javascript" src="js/scrollreveal.min.js"></script>
     <!--Import WOW.js-->
-    <script type="text/javascript" src="js/wow.min.js"></script>
+    <!--<script type="text/javascript" src="js/wow.min.js"></script>
     <script>
         new WOW().init();
-    </script>
+    </script>-->
     <script>
         $(document).ready(function() {
             $('#modal1').openModal();
@@ -49,7 +53,6 @@
             });
         });
     </script>
-    <script src="js/SmoothScroll.js"></script>
     <!--End of Defaults-->
     <header>
         <nav>
@@ -215,5 +218,11 @@
         </div>
     </header>
 </body>
+<script>
+    window.sr = ScrollReveal({
+        reset: true
+    });
+    window.sr = ScrollReveal().reveal(".slate");
+</script>
 
 </html>
