@@ -102,6 +102,8 @@ nav {
     width: auto;
     max-width: 75%;
     margin: 1.5em auto;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 256px;
     /*unselectable image*/
     pointer-events: none;
     user-drag: none;
